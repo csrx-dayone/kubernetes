@@ -184,7 +184,7 @@ spec:
   - name: csrx
     securityContext:
        privileged: true
-    image: csrx:20.3R1.3
+    image: csrx:20.3R1.8
     imagePullPolicy: IfNotPresent
     env:
     - name: CSRX_ROOT_PASSWORD
