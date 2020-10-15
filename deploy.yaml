@@ -163,7 +163,7 @@ spec:
   - name: srv-pod-1
     securityContext:
       privileged: true
-    image: nginx 
+    image: manasasuresh/ubuntu-wget-nginx:latest 
     imagePullPolicy: IfNotPresent
     command: ["sleep", "9999999"]
   nodeSelector:
@@ -227,7 +227,7 @@ metadata:
 spec:
   containers:
   - name: srv-pod-2
-    image: nginx
+    image: manasasuresh/ubuntu-wget-nginx:latest
     imagePullPolicy: IfNotPresent 
     command: ["sleep", "9999999"] 
   nodeSelector:
