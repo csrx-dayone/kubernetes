@@ -2,7 +2,7 @@
 apiVersion: "k8s.cni.cncf.io/v1"
 kind: NetworkAttachmentDefinition
 metadata:
-  name: network-conf-1
+  name: red 
 spec:
   config: '{
       "cniVersion": "0.3.0",
@@ -28,7 +28,7 @@ spec:
 apiVersion: "k8s.cni.cncf.io/v1"
 kind: NetworkAttachmentDefinition
 metadata:
-  name: network-conf-1-1
+  name: orange 
 spec:
   config: '{
       "cniVersion": "0.3.0",
@@ -53,7 +53,7 @@ spec:
 apiVersion: "k8s.cni.cncf.io/v1"
 kind: NetworkAttachmentDefinition
 metadata:
-  name: network-conf-2-1
+  name: green 
 spec:
   config: '{
       "cniVersion": "0.3.0",
@@ -78,7 +78,7 @@ spec:
 apiVersion: "k8s.cni.cncf.io/v1"
 kind: NetworkAttachmentDefinition
 metadata:
-  name: network-conf-2
+  name: blue 
 spec:
   config: '{
       "cniVersion": "0.3.0",

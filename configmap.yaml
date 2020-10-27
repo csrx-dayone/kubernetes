@@ -3,18 +3,16 @@ apiVersion: v1
 metadata:
   name: csrx-config-map
 data:
- csrx_license: |
- 
- 
- 
- csrx_config: |
+  csrx_license: |
+
+  csrx_config: |
     interfaces {
-     ge-0/0/0 {
+      ge-0/0/0 {
         unit 0;
-     }
-     ge-0/0/1 {
+      }
+      ge-0/0/1 {
         unit 0;
-     }
+      }
     }
     security {
         policies {

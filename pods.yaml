@@ -4,7 +4,7 @@ kind: Pod
 metadata:
   name: srv-pod-1
   annotations:
-    k8s.v1.cni.cncf.io/networks: network-conf-1
+    k8s.v1.cni.cncf.io/networks: red 
 spec:
   containers:
   - name: srv-pod-1
@@ -23,7 +23,7 @@ kind: Pod
 metadata:
   name: csrx
   annotations:
-    k8s.v1.cni.cncf.io/networks: network-conf-1-1,network-conf-2-1
+    k8s.v1.cni.cncf.io/networks: orange,green
 spec:
   containers:
   - name: csrx
@@ -75,7 +75,7 @@ kind: Pod
 metadata:
   name: srv-pod-2
   annotations:
-    k8s.v1.cni.cncf.io/networks: network-conf-2
+    k8s.v1.cni.cncf.io/networks: blue 
 spec:
   containers:
   - name: srv-pod-2
